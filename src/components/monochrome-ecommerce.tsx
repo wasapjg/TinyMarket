@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Slider } from "@/components/ui/slider"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card1"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { HeartIcon, ShoppingCartIcon, UserIcon, MenuIcon, SearchIcon } from 'lucide-react'
 
 export function MonochromeEcommerce() {
@@ -36,13 +36,13 @@ export function MonochromeEcommerce() {
               <MenuIcon className="h-4 w-4" />
               <span className="sr-only">Menu</span>
             </Button>
-            <h1 className="text-2xl font-bold">Monochrome</h1>
+            <h1 className="text-2xl font-bold text-gray-700">Monochrome</h1>
           </div>
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="ghost">Home</Button>
-            <Button variant="ghost">Shop</Button>
-            <Button variant="ghost">About</Button>
-            <Button variant="ghost">Contact</Button>
+            <Button variant="ghost" className=''>Home</Button>
+            <Button variant="ghost" className=''>Shop</Button>
+            <Button variant="ghost" className=''>About</Button>
+            <Button variant="ghost" className=''>Contact</Button>
           </div>
           <div className="flex items-center space-x-4">
             <Button variant="outline" size="icon">
